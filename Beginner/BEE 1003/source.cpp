@@ -9,4 +9,5 @@ int main()
 	cin >> b;
 	int soma{ a + b };
 	cout << "SOMA = " << soma << endl;
+	return 0;
 }
