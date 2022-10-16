@@ -8,6 +8,7 @@ int main()
 	double r{ };
 	cin >> r;
 	double a{ (r * r) * pi };
-	printf("A=%.4f", a, '\n');
+	printf("A=%.4f", a);
+	cout << '\n';
 	return 0;
 }
