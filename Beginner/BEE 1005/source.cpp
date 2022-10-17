@@ -8,6 +8,6 @@ int main()
 	cin >> a;
 	cin >> b;
 	double avg = ((a * 3.5) + (b * 7.5)) / 11;
-	printf("MEDIA = %.4f", avg);
+	printf("MEDIA = %.5f", avg);
 	cout << '\n';
 }
