@@ -9,4 +9,6 @@ int main()
 	cin >> c;
 	cin >> d;
 	cout << "DIFERENCA = " << (a * b) - (c * d) << '\n';
+
+	return 0;
 }
