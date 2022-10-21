@@ -7,7 +7,7 @@ int main()
 	double a{}, b{}, c{};
 	cin >> a >> b >> c;
 
-	printf("TRIANGULO: %.3f", (a * b) / 2);
+	printf("TRIANGULO: %.3f", (a * c) / 2);
 	cout << '\n';
 	printf("CIRCULO: %.3f", (c * c) * 3.14159);
 	cout << '\n';
