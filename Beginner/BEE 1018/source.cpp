@@ -1,9 +1,8 @@
 #include <iostream>
-#include <cstdio>
 
 int main()
 {
-	int n{}, n100{}, n50{};
+	int n{}, n100{}, n50{}, n20{}, n10{}, n5{}, n2{}, n1{};
 	std::cin >> n;
 	std::cout << n << '\n';
 
@@ -17,6 +16,34 @@ int main()
 		n50 = n / 50;
 		n = n - (n50 * 50);
 		std::cout << n50 << " nota(s) de R$ 50,00\n";
+	}
+	
+	if (n >= 20) {
+		n20 = n / 20;
+		n = n - (n20 * 20);
+		std::cout << n20 << " nota(s) de R$ 20,00\n";
+	}
+
+	if (n >= 10) {
+		n10 = n / 10;
+		n = n - (n10 * 10);
+		std::cout << n10 << " nota(s) de R$ 10,00\n";
+	}
+
+	if (n >= 5) {
+		n5 = n / 5;
+		n = n - (n5 * 5);
+		std::cout << n5 << " nota(s) de R$ 5,00\n";
+	}
+
+	if (n >= 2) {
+		n2 = n / 2;
+		n = n - (n2 * 2);
+		std::cout << n2 << " nota(s) de R$ 2,00\n";
+	}
+
+	if (n != 0) {
+		std::cout << n << "nota(s) de R$ 1,00\n";
 	}
 
 	return 0;
