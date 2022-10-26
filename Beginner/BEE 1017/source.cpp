@@ -8,6 +8,7 @@ int main()
 	std::cin >> speed;
 
 	printf("%.3f", (time * speed) / 12.0);
+	std::cout << '\n';
 
 	return 0;
 }
