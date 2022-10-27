@@ -2,7 +2,7 @@
 
 int main()
 {
-	int time{}, hours{}, min{}, sec{};
+	int time{}, hours{}, min{};
 	std::cin >> time;
 
 	if (time >= 3600) {
