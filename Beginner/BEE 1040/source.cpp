@@ -26,7 +26,8 @@ int main()
 		float exam{};
 		std::cin >> exam;
 		
-		std::cout << "Nota do exame: " << exam << '\n';
+		printf("Nota do exame: %.1f", exam);
+		std::cout << '\n';
 		float finalScore{ final(average, exam) };
 		if (finalScore >= 5.0) {
 			std::cout << "Aluno aprovado.\n";
