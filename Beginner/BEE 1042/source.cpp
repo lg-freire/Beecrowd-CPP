@@ -1,11 +1,9 @@
 #include <iostream>
 
-
-void sort(int x, int y, int z) {
-	std::cout << "in sort()\n";
+template<typename T>
+void sort(T& x, T& y, T& z) {
 	if (x > y) {
 		std::swap(x, y);
-		std::cout << x << " " << y << '\n';
 	}if (x > z) {
 		std::swap(x, z);
 	}if (y > z) {
@@ -21,9 +19,9 @@ int main()
 
 	int x{ a }, y{ b }, z{ c };
 
-	sort(a, b, c);
-	std::cout << a << '\n' << b << '\n' << c << '\n' << '\n';
-		//<< a << '\n' << b << '\n' << c << '\n';
+	sort(x, y, z);
+	std::cout << x << '\n' << y << '\n' << z << '\n' << '\n'
+		<< a << '\n' << b << '\n' << c << '\n';
 
 	return 0;
 }
