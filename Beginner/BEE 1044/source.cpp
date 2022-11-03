@@ -13,7 +13,7 @@ int main()
 		std::cout << "Sao Multiplos\n";
 	}
 	else {
-		std::cout << "Nao Sao Multiplos\n";
+		std::cout << "Nao sao Multiplos\n";
 	}
 
 	return 0;
