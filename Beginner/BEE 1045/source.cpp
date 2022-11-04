@@ -17,6 +17,12 @@ void triangle(double a, double b, double c) {
 		std::cout << "NAO FORMA TRIANGULO\n";
 	}
 	else {
+		if (a == b && b == c) {
+			std::cout << "TRIANGULO EQUILATERO\n";
+		}
+		else if (a == b || b == c || a == c) {
+			std::cout << "TRIANGULO ISOSCELES\n";
+		}
 		if (pow(a, 2) == pow(b, 2) + pow(c, 2)) {
 			std::cout << "TRIANGULO RETANGULO\n";
 		}
@@ -25,12 +31,6 @@ void triangle(double a, double b, double c) {
 		}
 		if (pow(a, 2) < pow(b, 2) + pow(c, 2)) {
 			std::cout << "TRIANGULO ACUTANGULO\n";
-		}
-		if (a == b == c) {
-			std::cout << "TRIANGULO EQUILATERO\n";
-		}
-		else if (a == b || b == c || a == c) {
-			std::cout << "TRIANGULO ISOSCELES\n";
 		}
 	}
 }
