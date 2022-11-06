@@ -26,7 +26,7 @@ int main()
 
 	int duration{ delta(timeStart, timeEnd) };
 
-	std::cout << "O JOGO DUROU " << duration / 60 << " HORA (S) E " << duration % 60 << " MINUTO (S)\n";
+	std::cout << "O JOGO DUROU " << duration / 60 << " HORA(S) E " << duration % 60 << " MINUTO(S)\n";
 
 	return 0;
 }
