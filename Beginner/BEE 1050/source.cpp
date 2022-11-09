@@ -23,7 +23,7 @@ void destination(int n) {
 	else if (n == 31) {
 		cout << "Belo Horizonte\n";
 	}
-	else if (n == 29) {
+	else if (n == 27) {
 		cout << "Vitoria\n";
 	}
 	else {
