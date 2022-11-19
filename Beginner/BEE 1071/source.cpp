@@ -10,7 +10,6 @@ int main()
 		std::swap(start, end);
 
 	for (int i = start+1; i < end; i++) {
-		std::cout << i;
 		if (i % 2 != 0)
 			sum += i;
 	}
