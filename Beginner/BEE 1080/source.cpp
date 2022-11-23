@@ -5,7 +5,7 @@ int main()
 	int count{ 1 }, input{}, max{};
 	
 	for (int i = 1; i < 101; i++) {
-		if (count == 0) {
+		if (count == 1) {
 			std::cin >> input;
 			max = input;
 			count++;
