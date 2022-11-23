@@ -2,9 +2,9 @@
 
 int main()
 {
-	int count{ 0 }, input{}, max{};
+	int count{ 1 }, input{}, max{};
 	
-	for (int i = 0; i < 100; i++) {
+	for (int i = 1; i < 101; i++) {
 		if (count == 0) {
 			std::cin >> input;
 			max = input;
