@@ -24,7 +24,10 @@ int main()
 	cout << "Total: " << total << " cobaias\n" << "Total de coelhos: " << b << "\nTotal de ratos: " << r << "\nTotal de sapos: " << f << '\n';
 	printf("Percentual de coelhos: %.2f", (b * 100.0) / total);
 	cout << " %" << '\n';
-	// printf("")
+	printf("Percentual de ratos: %.2f", (r * 100.0) / total);
+	cout << " %" << '\n';
+	printf("Percentual de sapos: %.2f", (f * 100.0) / total);
+	cout << " %" << '\n';
 
 	return 0;
 }
